@@ -1,6 +1,6 @@
 def rajudown(a)
 {
-  git "{https://github.com/intelliqittrainings/${a}.git"
+  git "{https://github.com/intelliqittrainings/${repo}.git"
 }
 def rajubuild()
 {
