@@ -1,4 +1,4 @@
-def rajudown(a)
+def rajudown(repo)
 {
   git "{https://github.com/intelliqittrainings/${repo}.git"
 }
