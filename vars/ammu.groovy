@@ -8,5 +8,5 @@ def rajubuild()
 }
 def rajudeploy(b,c)
 {
-  
+    sh "scp /var/lib/jenkins/workspace/${b}/webapp/target/webapp.war ubuntu@172.31.27.110:/var/lib/tomcat9/webapps/${c}.war"
 }
