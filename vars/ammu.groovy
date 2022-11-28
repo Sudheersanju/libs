@@ -4,7 +4,7 @@ def rajudown(a)
 }
 def rajubuild()
 {
-  sh "mvn package"
+  sh 'mvn package'
 }
 def rajudeploy(b,c)
 {
